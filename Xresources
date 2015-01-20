@@ -1,8 +1,12 @@
 XTerm*background: black
 XTerm*foreground: white
 
-URxvt.background: black
-URxvt.foreground: white
+URxvt.background: #151515
+URxvt.foreground: #D7D0C7
+
+! Blue
+URxvt.color4:  #7DC1CF
+URxvt.color12: #4E9FB1
 
 URxvt.cursorBlink:      true
 URxvt.scrollBar:        off
