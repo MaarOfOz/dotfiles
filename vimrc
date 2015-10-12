@@ -13,7 +13,8 @@ Plug 'skammer/vim-css-color'
 Plug 'Chiel92/vim-autoformat'
 Plug 'shawncplus/phpcomplete.vim'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
-Plug 'koron/nyancat-vim'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 
 call plug#end()
 
