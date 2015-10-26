@@ -1,10 +1,9 @@
-XTerm*background: black
-XTerm*foreground: white
+XTerm*background: #151515
+XTerm*foreground: #D7D0C7
 
 URxvt.background: #151515
 URxvt.foreground: #D7D0C7
 
-! Blue
 URxvt.color4:  #7DC1CF
 URxvt.color12: #4E9FB1
 
@@ -12,71 +11,7 @@ URxvt.cursorBlink:      true
 URxvt.scrollBar:        off
 URxvt.depth:            24
 URxvt.font:             xft:Terminus:pixelsize=13
-URxvt.loginShell:       true
 URxvt.mapAlert:         true
 URxvt.pointerBlank:     true
 URxvt.resource:         value
 URxvt.urgentOnBell:     true
-
-!URxvt.foreground:       #D7D0C7
-!URxvt.background:       #151515
-! Black
-!URxvt.color0:           #303030
-!URxvt.color8:           #404040
-! Red
-!URxvt.color1:           #E84F4F
-!URxvt.color9:           #D23D3D
-! Green
-!URxvt.color2:           #B8D68C
-!URxvt.color10:          #A0CF5D
-! Yellow
-!URxvt.color3:           #E1AA5D
-!URxvt.color11:          #F39D21
-! Blue
-!URxvt.color4:           #7DC1CF
-!URxvt.color12:          #4E9FB1
-! Magenta
-!URxvt.color5:           #9B64FB
-!URxvt.color13:          #8542FF
-! Cyan
-!URxvt.color6:           #6D878D
-!URxvt.color14:          #42717B
-! White
-!URxvt.color7:           #dddddd
-!URxvt.color15:          #dddddd
-
-
-xscreensaver.splash: false
-
-!font settings
-xscreensaver.Dialog.headingFont:        -*-helvetica-bold-r-*-*-17-*-*-*-*-*-*-*
-xscreensaver.Dialog.bodyFont:           -*-helvetica-medium-r-*-*-17-*-*-*-*-*-*-*
-xscreensaver.Dialog.labelFont:          -*-helvetica-medium-r-*-*-17-*-*-*-*-*-*-*
-xscreensaver.Dialog.unameFont:          -*-helvetica-medium-r-*-*-17-*-*-*-*-*-*-*
-xscreensaver.Dialog.buttonFont:         -*-helvetica-bold-r-*-*-17-*-*-*-*-*-*-*
-xscreensaver.Dialog.dateFont:           -*-helvetica-medium-r-*-*-17-*-*-*-*-*-*-*
-xscreensaver.passwd.passwdFont:         -*-terminus-*-r-*-*-14-*-*-*-*-*-*-*
-
-!general dialog box (affects main hostname, username, password text)
-xscreensaver.Dialog.foreground:         #ffffff
-xscreensaver.Dialog.background:         #000000
-xscreensaver.Dialog.topShadowColor:     #000000
-xscreensaver.Dialog.bottomShadowColor:  #000000
-xscreensaver.Dialog.Button.foreground:  #666666
-xscreensaver.Dialog.Button.background:  #ffffff
-
-!username/password input box and date text colour
-xscreensaver.Dialog.text.foreground:    #666666
-xscreensaver.Dialog.text.background:    #ffffff
-xscreensaver.Dialog.internalBorderWidth:60
-xscreensaver.Dialog.borderWidth:        0
-xscreensaver.Dialog.shadowThickness:    2
-
-!timeout bar (background is actually determined by Dialog.text.background)
-xscreensaver.passwd.thermometer.foreground:  #ff0000
-xscreensaver.passwd.thermometer.background:  #000000
-xscreensaver.passwd.thermometer.width:       8
-
-!datestamp format--see the strftime(3) manual page for details
-xscreensaver.dateFormat:    %H:%M %a %b %d, %Y
-

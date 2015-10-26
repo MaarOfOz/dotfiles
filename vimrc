@@ -76,3 +76,7 @@ noremap <F3> :Autoformat<CR>
 syntax on
 
 colorscheme vividchalk
+
+if filereadable($HOME . "/.vimrc.local")
+	source ~/.vimrc.local
+endif

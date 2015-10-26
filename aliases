@@ -1,0 +1,10 @@
+# console
+alias ll='ls -l --group-directories-first'
+alias lh='ls -lh'
+alias la='ls -la'
+
+# git
+alias gti='git'
+
+# source custom local aliases
+[[ -f ~/.aliases.local ]] && . ~/.aliases.local

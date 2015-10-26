@@ -1,0 +1,4 @@
+OPTIONS=noautopickup
+OPTIONS=color
+OPTIONS=showexp
+OPTIONS=time
