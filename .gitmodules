@@ -1,0 +1,3 @@
+[submodule "xwobf"]
+	path = xwobf
+	url = https://github.com/glindste/xwobf
