@@ -2,7 +2,7 @@
 export GO15VENDOREXPERIMENT=1
 export GOPATH=$HOME/go/utils
 
-export PATH=$PATH:$HOME/bin/:$GOPATH/bin
+export PATH=$HOME/bin/:$GOPATH/bin:$PATH
 
 export EDITOR="/usr/bin/vim"
 export HISTCONTROL=ignoredups
