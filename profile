@@ -1,6 +1,5 @@
 # go env
-export GO15VENDOREXPERIMENT=1
-export GOPATH=$HOME/go/utils
+export GOPATH=$HOME/go
 
 export PATH=$HOME/bin/:$GOPATH/bin:$PATH
 

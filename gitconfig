@@ -12,5 +12,7 @@
 	ui = true
 [push]
 	default = simple
+[core]
+	autocrlf = input
 [include]
 	path = ~/.gitconfig.local
