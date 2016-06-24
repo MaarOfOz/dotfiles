@@ -31,7 +31,7 @@ set autochdir
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set noexpandtab 
+set noexpandtab
 
 set hidden
 
@@ -49,6 +49,9 @@ let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
+
+" html
+let g:formatdef_htmlbeautify = '"html-beautify -f - -".(&expandtab ? "s ".shiftwidth() : "t")'
 
 
 map <up> <nop>
